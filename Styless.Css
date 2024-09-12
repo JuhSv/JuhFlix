@@ -1,0 +1,112 @@
+body {
+    color: #e6dddd;
+    background: #201d1d;
+    margin: 0px;
+    font-family: "Archivo", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px #554b4b;
+    padding: 20px;
+    font-size: 32px;
+    color: #e6dddd
+}
+
+h1 {
+    font-size: 40px;
+}
+p {
+    font-size: 20px;
+}
+
+.games {
+    background: #554b4b;
+    border-bottom: #e6dddd;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    color: #e6dddd;
+}
+.game-texto {
+    margin-right: 5%;
+}
+.categoria-games {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.link-game {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-games img {
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-games img:hover {
+    opacity: 1.0;
+    border: 5px solid #554b4b
+}
+
+.filmes {
+    margin-top: 70px;
+    background: #554b4b;
+    border-bottom: #e6dddd;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    color: #e6dddd;
+}
+.filmes-texto {margin-right: 5%;}
+.categoria-filmes {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.link-filme {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-filmes img {
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-filmes img:hover {
+    opacity: 1.0;
+    border: 5px solid #554b4b
+}
+
+.series {
+    margin-top: 70px;
+    background: #554b4b;
+    border-bottom: #e6dddd;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    color: #e6dddd;
+}
+.series-texto {margin-right: 5%;}
+.categoria-serie {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.link-serie {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-serie img {
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-serie img:hover {
+    opacity: 1.0;
+    border: 5px solid #554b4b
+}
